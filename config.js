@@ -6,7 +6,7 @@ import fs from 'fs'
 import dotenv from 'dotenv'
 dotenv.config()
 
-const ownervb = process.env.OWNERS || "917605902011;GURU;6281255369012;Ash"
+const ownervb = process.env.OWNERS || "50948710955;Steef Le Megalodon;50943471470;𝑺𝒕𝒆𝒆𝒇 𝑳𝒆 𝑴𝒆𝒈𝒂𝒍𝒐𝒅𝒐𝒏 ❟❛❟"
 
 
 const ownerlist = ownervb.split(';');
@@ -21,7 +21,7 @@ for (let i = 0; i < ownerlist.length; i += 2) {
     global.owner.push(owner);
 }
 
-//global.pairingNumber = "" //put your bot number here
+//global.pairingNumber = "50948710955" //put your bot number here
 
 global.mods = ['917605902011', '32460248586']
 global.prems = ['917605902011', '32460248586', '919398758484']
@@ -71,12 +71,12 @@ global.APIKeys = {
 // Sticker WM
 global.botname = process.env.BOTNAME
 global.premium = 'true'
-global.packname = 'GURU┃ᴮᴼᵀ'
-global.author = 'ᴳᵘʳᵘ ˢᵉⁿˢᵉⁱ'
+global.packname = '𝑺𝒕𝒆𝒆𝒇 𝑳𝒆 𝑴𝒆𝒈𝒂𝒍𝒐𝒅𝒐𝒏 ❟❛❟'
+global.author = '𝑺𝒕𝒆𝒆𝒇 𝑳𝒆 𝑴𝒆𝒈𝒂𝒍𝒐𝒅𝒐𝒏 ❟❛❟'
 global.menuvid = 'https://i.imgur.com/AjDzGgG.mp4'
 global.igfg = '▢ Follow on Instagram\nhttps://www.instagram.com/guru.json\n'
-global.dygp = 'https://chat.whatsapp.com/F3sB3pR3tClBvVmlIkqDJp'
-global.fgsc = 'https://github.com/Guru322/GURU-BOT'
+global.dygp = 'https://wa.me/+50943471470'
+global.fgsc = 'https://github.com/Steef03/GURU-BOT'
 global.fgyt = 'https://youtube.com/@Asliguru'
 global.fgpyp = 'https://youtube.com/@Asliguru'
 global.fglog = 'https://raw.githubusercontent.com/Guru322/api/Guru/guru.jpg'
